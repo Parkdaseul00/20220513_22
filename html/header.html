@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>main</title>
+
+	<link href="" rel="stylesheet">
+	<link href="css/main_max599.css" rel="stylesheet">
+	<link href="css/main_min600.css" rel="stylesheet">
+	<link href="css/main_min1000.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Nunito+Sans:wght@900&family=Open+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap"
+		rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script>
+
+
+
+		$(function () {
+
+			$(".nav_btn").click(function () {
+
+				$(".nav").slideToggle();
+
+			});
+
+		});
+
+
+
+
+
+		$(window).resize(function () {
+
+			if (window.innerWidth >= 1000) {
+
+				$(".nav").show();
+
+			}
+
+			if (window.innerWidth <= 1099) {
+
+				$(".nav").hide();
+
+			}
+
+		});
+
+
+
+
+	</script>
+
+</head>
+
+
+
+
+<body>
+
+	<div id="wrap">
+
+
+		<!--header/nav-->
+
+		<header>
+			<div id="class">
+				<div class="nav_btn">
+					<img src="img/navbtn.png" alt="네비햄버거">
+				</div>
+
+				<div class="nav">
+					<ul>
+						<li><a href="#">HOME<img src="img/v.png" alt="화살표"></a></li>
+						<li><a href="#">PAGES<img src="img/v.png" alt="화살표"></a></li>
+						<li><a href="#">PORTFPLIO<img src="img/v.png" alt="화살표"></a></li>
+						<li><a href="#">SHOP<img src="img/v.png" alt="화살표"></a></li>
+						<li><a href="#">BLOG<img src="img/v.png" alt="화살표"></a></li>
+					</ul>
+				</div>
+
+				<!--logo-->
+				<div class="f_logo">
+					<img src="img/logo.png" alt="로고1">
+				</div>
+
+				<!--sns-->
+				<div class="sns">
+					<ul>
+						<li><a href="#"><img src="img/fe.png" alt="페이스북로고">| FACEBOOK</a></li>
+						<li><a href="#"><img src="img/tw.png" alt="트위터로고">| TWITTER</a></li>
+						<li><a href="#"><img src="img/in.png" alt="인스타로고">| INSRAGRAM</a></li>
+						<li><a href="#"><img src="img/vi.png" alt="vimeo로고">| VIMEO</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+		</header>
+
+		<!--slider-->
+
+		<div id="slider">
+
+			<div class="slider_textbox">
+
+				<span>GREETINGS, WE ARE</span>
+				<h3>FORESTER</h3>
+				<p class="stp">
+					Unordinary digital agency crafting sophisticated and<br>
+					eccentric stuff that will leave you speechless.
+				</p>
+				<p><a href="">EXPLORE NOW</a></p>
+
+			</div>
+
+
+		</div>
+</body>
+
+</html>
